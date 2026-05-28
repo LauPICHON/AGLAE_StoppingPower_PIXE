@@ -200,8 +200,9 @@ def main(self=None):
             " <arg4:Energy step (keV)> <arg5:Charge fluence (µC/cm²)>  <arg6:Calculate range (yes/no)> "
             "<arg7:Target density (g/cm³)> <arg8:modecalculation (LivePIXE/manual)>")
              
-        # lst_arg = ["C:\\LivePIXE\\MAT_X0\\LAST_MTX.OUT", 3000,25, 0.50, 2.1, "yes", 2,"Manual"]
-        lst_arg = ["C:\\LivePIXE\\MAT_X0\\LAST_MTX.OUT", 3000,25, 0.50, 2]
+        lst_arg = ["C:\\LivePIXE\\MAT_X0\\LAST_MTX.OUT", 3000,25, 0.50, 2.1, "yes", 2,"Manual"]
+        print("Processing with default parameters for testing...")
+       # lst_arg = ["C:\\LivePIXE\\MAT_X0\\LAST_MTX.OUT", 3000,25, 0.50, 2]
         process_Gy(lst_arg)
     else:
         process_Gy(lst_arg)
