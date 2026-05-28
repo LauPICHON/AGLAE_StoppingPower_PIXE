@@ -1,0 +1,2 @@
+
+pyinstaller --onefile --add-data "coefficients_stopping_power.txt;." --add-data "atomic_weight.txt;." --noconsole stopping_power_calculation_LP.py
